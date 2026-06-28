@@ -1,0 +1,19 @@
+{
+  "servers": {
+    "playwright-test": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "playwright",
+        "run-test-mcp-server"
+      ]
+    }
+  },
+  "resources": [
+    {
+      "uri": "file://./.github/agents/playwright-test-planner.agent.md",
+      "name": "Playwright Planner Agent",
+      "description": "Agent spécialisé pour la planification de tests Playwright"
+    }
+  ]
+}

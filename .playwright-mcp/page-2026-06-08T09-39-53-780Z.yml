@@ -1,0 +1,462 @@
+- generic [active] [ref=e1]:
+  - banner:
+    - link "Get Free Temporary & Disposable Emails. dummyinbox.com" [ref=e5] [cursor=pointer]:
+      - /url: https://dummyinbox.com?utm_source=dummyjson
+    - navigation [ref=e6]:
+      - generic [ref=e7]:
+        - link "DummyJSON" [ref=e8] [cursor=pointer]:
+          - /url: /
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - link "Home" [ref=e11] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e12]:
+            - link "Docs" [ref=e13] [cursor=pointer]:
+              - /url: /docs
+          - listitem [ref=e14]:
+            - link "Icon GitHub" [ref=e15] [cursor=pointer]:
+              - /url: https://github.com/Ovi/DummyJSON
+              - img "Icon" [ref=e16]
+              - text: GitHub
+  - navigation [ref=e17]:
+    - list [ref=e18]:
+      - listitem [ref=e19]:
+        - link "Custom Response" [ref=e20] [cursor=pointer]:
+          - /url: /custom-response
+          - img [ref=e21]
+          - text: Custom Response
+      - listitem [ref=e23]:
+        - link "Intro" [ref=e24] [cursor=pointer]:
+          - /url: /docs
+          - img [ref=e25]
+          - text: Intro
+        - list:
+          - listitem [ref=e27]:
+            - link "Test" [ref=e28] [cursor=pointer]:
+              - /url: /docs/#intro-test
+          - listitem [ref=e29]:
+            - link "Limiting Resources" [ref=e30] [cursor=pointer]:
+              - /url: /docs/#intro-limit
+          - listitem [ref=e31]:
+            - link "Delay Responses" [ref=e32] [cursor=pointer]:
+              - /url: /docs/#intro-delay
+          - listitem [ref=e33]:
+            - link "Resources as Auth User" [ref=e34] [cursor=pointer]:
+              - /url: /docs/#intro-auth
+          - listitem [ref=e35]:
+            - link "IP Address" [ref=e36] [cursor=pointer]:
+              - /url: /docs/#intro-ip
+      - listitem [ref=e37]:
+        - link "Dynamic Image" [ref=e38] [cursor=pointer]:
+          - /url: /docs/image
+          - img [ref=e39]
+          - text: Dynamic Image
+        - list:
+          - listitem [ref=e41]:
+            - link "Generate square image" [ref=e42] [cursor=pointer]:
+              - /url: /docs/image/#image-square
+          - listitem [ref=e43]:
+            - link "Custom width / height" [ref=e44] [cursor=pointer]:
+              - /url: /docs/image/#image-custom-size
+          - listitem [ref=e45]:
+            - link "Custom text" [ref=e46] [cursor=pointer]:
+              - /url: /docs/image/#image-custom-text
+          - listitem [ref=e47]:
+            - link "Custom Custom Background and Text Color" [ref=e48] [cursor=pointer]:
+              - /url: /docs/image/#image-custom-color
+          - listitem [ref=e49]:
+            - link "Different file formats" [ref=e50] [cursor=pointer]:
+              - /url: /docs/image/#image-format
+          - listitem [ref=e51]:
+            - link "Custom font family" [ref=e52] [cursor=pointer]:
+              - /url: /docs/image/#image-font-family
+          - listitem [ref=e53]:
+            - link "Custom font size" [ref=e54] [cursor=pointer]:
+              - /url: /docs/image/#image-font-size
+          - listitem [ref=e55]:
+            - link "Create identicon" [ref=e56] [cursor=pointer]:
+              - /url: /docs/image/#image-identicon
+      - listitem [ref=e57]:
+        - link "Auth" [ref=e58] [cursor=pointer]:
+          - /url: /docs/auth
+          - img [ref=e59]
+          - text: Auth
+        - list:
+          - listitem [ref=e61]:
+            - link "Login and get tokens" [ref=e62] [cursor=pointer]:
+              - /url: /docs/auth/#auth-login
+          - listitem [ref=e63]:
+            - link "Get auth user" [ref=e64] [cursor=pointer]:
+              - /url: /docs/auth/#auth-me
+          - listitem [ref=e65]:
+            - link "Refresh tokens" [ref=e66] [cursor=pointer]:
+              - /url: /docs/auth/#auth-refresh
+      - listitem [ref=e67]:
+        - link "Products" [ref=e68] [cursor=pointer]:
+          - /url: /docs/products
+          - img [ref=e69]
+          - text: Products
+        - list:
+          - listitem [ref=e71]:
+            - link "Get all products" [ref=e72] [cursor=pointer]:
+              - /url: /docs/products/#products-all
+          - listitem [ref=e73]:
+            - link "Get a single product" [ref=e74] [cursor=pointer]:
+              - /url: /docs/products/#products-single
+          - listitem [ref=e75]:
+            - link "Search products" [ref=e76] [cursor=pointer]:
+              - /url: /docs/products/#products-search
+          - listitem [ref=e77]:
+            - link "Limit & Skip products" [ref=e78] [cursor=pointer]:
+              - /url: /docs/products/#products-limit_skip
+          - listitem [ref=e79]:
+            - link "Sort products" [ref=e80] [cursor=pointer]:
+              - /url: /docs/products/#products-sort
+          - listitem [ref=e81]:
+            - link "Get all products categories" [ref=e82] [cursor=pointer]:
+              - /url: /docs/products/#products-categories
+          - listitem [ref=e83]:
+            - link "Get products category list" [ref=e84] [cursor=pointer]:
+              - /url: /docs/products/#products-category_list
+          - listitem [ref=e85]:
+            - link "Get products by category" [ref=e86] [cursor=pointer]:
+              - /url: /docs/products/#products-category
+          - listitem [ref=e87]:
+            - link "Add a product" [ref=e88] [cursor=pointer]:
+              - /url: /docs/products/#products-add
+          - listitem [ref=e89]:
+            - link "Update a product" [ref=e90] [cursor=pointer]:
+              - /url: /docs/products/#products-update
+          - listitem [ref=e91]:
+            - link "Delete a product" [ref=e92] [cursor=pointer]:
+              - /url: /docs/products/#products-delete
+      - listitem [ref=e93]:
+        - link "Carts" [ref=e94] [cursor=pointer]:
+          - /url: /docs/carts
+          - img [ref=e95]
+          - text: Carts
+        - list [ref=e97]:
+          - listitem [ref=e98]:
+            - link "Get all carts" [ref=e99] [cursor=pointer]:
+              - /url: /docs/carts/#carts-all
+          - listitem [ref=e100]:
+            - link "Get a single cart" [ref=e101] [cursor=pointer]:
+              - /url: /docs/carts/#carts-single
+          - listitem [ref=e102]:
+            - link "Get carts by user" [ref=e103] [cursor=pointer]:
+              - /url: /docs/carts/#carts-user
+          - listitem [ref=e104]:
+            - link "Add a cart" [ref=e105] [cursor=pointer]:
+              - /url: /docs/carts/#carts-add
+          - listitem [ref=e106]:
+            - link "Update a cart" [ref=e107] [cursor=pointer]:
+              - /url: /docs/carts/#carts-update
+          - listitem [ref=e108]:
+            - link "Delete a cart" [ref=e109] [cursor=pointer]:
+              - /url: /docs/carts/#carts-delete
+      - listitem [ref=e110]:
+        - link "Recipes" [ref=e111] [cursor=pointer]:
+          - /url: /docs/recipes
+          - img [ref=e112]
+          - text: Recipes
+        - list:
+          - listitem [ref=e114]:
+            - link "Get all recipes" [ref=e115] [cursor=pointer]:
+              - /url: /docs/recipes/#recipes-all
+          - listitem [ref=e116]:
+            - link "Get a single recipe" [ref=e117] [cursor=pointer]:
+              - /url: /docs/recipes/#recipes-single
+          - listitem [ref=e118]:
+            - link "Search recipes" [ref=e119] [cursor=pointer]:
+              - /url: /docs/recipes/#recipes-search
+          - listitem [ref=e120]:
+            - link "Limit & Skip recipes" [ref=e121] [cursor=pointer]:
+              - /url: /docs/recipes/#recipes-limit_skip
+          - listitem [ref=e122]:
+            - link "Sort recipes" [ref=e123] [cursor=pointer]:
+              - /url: /docs/recipes/#recipes-sort
+          - listitem [ref=e124]:
+            - link "Get all recipes tags" [ref=e125] [cursor=pointer]:
+              - /url: /docs/recipes/#recipes-tags
+          - listitem [ref=e126]:
+            - link "Get recipes by tag" [ref=e127] [cursor=pointer]:
+              - /url: /docs/recipes/#recipes-tag
+          - listitem [ref=e128]:
+            - link "Get recipes by meal" [ref=e129] [cursor=pointer]:
+              - /url: /docs/recipes/#recipes-meal
+          - listitem [ref=e130]:
+            - link "Add a recipe" [ref=e131] [cursor=pointer]:
+              - /url: /docs/recipes/#recipes-add
+          - listitem [ref=e132]:
+            - link "Update a recipes" [ref=e133] [cursor=pointer]:
+              - /url: /docs/recipes/#recipes-update
+          - listitem [ref=e134]:
+            - link "Delete a recipe" [ref=e135] [cursor=pointer]:
+              - /url: /docs/recipes/#recipes-delete
+      - listitem [ref=e136]:
+        - link "Users" [ref=e137] [cursor=pointer]:
+          - /url: /docs/users
+          - img [ref=e138]
+          - text: Users
+        - list:
+          - listitem [ref=e140]:
+            - link "Get all users" [ref=e141] [cursor=pointer]:
+              - /url: /docs/users/#users-all
+          - listitem [ref=e142]:
+            - link "Login user" [ref=e143] [cursor=pointer]:
+              - /url: /docs/users/#users-login
+          - listitem [ref=e144]:
+            - link "Get auth user" [ref=e145] [cursor=pointer]:
+              - /url: /docs/users/#users-me
+          - listitem [ref=e146]:
+            - link "Get a single user" [ref=e147] [cursor=pointer]:
+              - /url: /docs/users/#users-single
+          - listitem [ref=e148]:
+            - link "Search users" [ref=e149] [cursor=pointer]:
+              - /url: /docs/users/#users-search
+          - listitem [ref=e150]:
+            - link "Filter users" [ref=e151] [cursor=pointer]:
+              - /url: /docs/users/#users-filter
+          - listitem [ref=e152]:
+            - link "Limit & Skip users" [ref=e153] [cursor=pointer]:
+              - /url: /docs/users/#users-limit_skip
+          - listitem [ref=e154]:
+            - link "Sort users" [ref=e155] [cursor=pointer]:
+              - /url: /docs/users/#users-sort
+          - listitem [ref=e156]:
+            - link "Get all posts tags" [ref=e157] [cursor=pointer]:
+              - /url: /docs/posts/#posts-tags
+          - listitem [ref=e158]:
+            - link "Get posts tag list" [ref=e159] [cursor=pointer]:
+              - /url: /docs/posts/#posts-tag_list
+          - listitem [ref=e160]:
+            - link "Get posts by tag" [ref=e161] [cursor=pointer]:
+              - /url: /docs/posts/#posts-tag
+          - listitem [ref=e162]:
+            - link "Get user's carts" [ref=e163] [cursor=pointer]:
+              - /url: /docs/users/#users-carts
+          - listitem [ref=e164]:
+            - link "Get user's posts" [ref=e165] [cursor=pointer]:
+              - /url: /docs/users/#users-posts
+          - listitem [ref=e166]:
+            - link "Get user's todos" [ref=e167] [cursor=pointer]:
+              - /url: /docs/users/#users-todos
+          - listitem [ref=e168]:
+            - link "Add a user" [ref=e169] [cursor=pointer]:
+              - /url: /docs/users/#users-add
+          - listitem [ref=e170]:
+            - link "Update a user" [ref=e171] [cursor=pointer]:
+              - /url: /docs/users/#users-update
+          - listitem [ref=e172]:
+            - link "Delete a user" [ref=e173] [cursor=pointer]:
+              - /url: /docs/users/#users-delete
+      - listitem [ref=e174]:
+        - link "Posts" [ref=e175] [cursor=pointer]:
+          - /url: /docs/posts
+          - img [ref=e176]
+          - text: Posts
+        - list:
+          - listitem [ref=e178]:
+            - link "Get all posts" [ref=e179] [cursor=pointer]:
+              - /url: /docs/posts/#posts-all
+          - listitem [ref=e180]:
+            - link "Get a single post" [ref=e181] [cursor=pointer]:
+              - /url: /docs/posts/#posts-single
+          - listitem [ref=e182]:
+            - link "Search posts" [ref=e183] [cursor=pointer]:
+              - /url: /docs/posts/#posts-search
+          - listitem [ref=e184]:
+            - link "Limit & Skip posts" [ref=e185] [cursor=pointer]:
+              - /url: /docs/posts/#posts-limit_skip
+          - listitem [ref=e186]:
+            - link "Sort posts" [ref=e187] [cursor=pointer]:
+              - /url: /docs/posts/#posts-sort
+          - listitem [ref=e188]:
+            - link "Get post by user id" [ref=e189] [cursor=pointer]:
+              - /url: /docs/posts/#posts-user
+          - listitem [ref=e190]:
+            - link "Get post's comments" [ref=e191] [cursor=pointer]:
+              - /url: /docs/posts/#posts-comments
+          - listitem [ref=e192]:
+            - link "Add a post" [ref=e193] [cursor=pointer]:
+              - /url: /docs/posts/#posts-add
+          - listitem [ref=e194]:
+            - link "Update a post" [ref=e195] [cursor=pointer]:
+              - /url: /docs/posts/#posts-update
+          - listitem [ref=e196]:
+            - link "Delete a post" [ref=e197] [cursor=pointer]:
+              - /url: /docs/posts/#posts-delete
+      - listitem [ref=e198]:
+        - link "Comments" [ref=e199] [cursor=pointer]:
+          - /url: /docs/comments
+          - img [ref=e200]
+          - text: Comments
+        - list:
+          - listitem [ref=e202]:
+            - link "Get all comments" [ref=e203] [cursor=pointer]:
+              - /url: /docs/comments/#comments-all
+          - listitem [ref=e204]:
+            - link "Get a single comment" [ref=e205] [cursor=pointer]:
+              - /url: /docs/comments/#comments-single
+          - listitem [ref=e206]:
+            - link "Limit & Skip comments" [ref=e207] [cursor=pointer]:
+              - /url: /docs/comments/#comments-limit_skip
+          - listitem [ref=e208]:
+            - link "Get comment by post id" [ref=e209] [cursor=pointer]:
+              - /url: /docs/comments/#comments-post
+          - listitem [ref=e210]:
+            - link "Add a comment" [ref=e211] [cursor=pointer]:
+              - /url: /docs/comments/#comments-add
+          - listitem [ref=e212]:
+            - link "Update a comment" [ref=e213] [cursor=pointer]:
+              - /url: /docs/comments/#comments-update
+          - listitem [ref=e214]:
+            - link "Delete a comment" [ref=e215] [cursor=pointer]:
+              - /url: /docs/comments/#comments-delete
+      - listitem [ref=e216]:
+        - link "Todos" [ref=e217] [cursor=pointer]:
+          - /url: /docs/todos
+          - img [ref=e218]
+          - text: Todos
+        - list:
+          - listitem [ref=e220]:
+            - link "Get all todos" [ref=e221] [cursor=pointer]:
+              - /url: /docs/todos/#todos-all
+          - listitem [ref=e222]:
+            - link "Get a single todo" [ref=e223] [cursor=pointer]:
+              - /url: /docs/todos/#todos-single
+          - listitem [ref=e224]:
+            - link "Get a random todo" [ref=e225] [cursor=pointer]:
+              - /url: /docs/todos/#todos-random
+          - listitem [ref=e226]:
+            - link "Limit & Skip todos" [ref=e227] [cursor=pointer]:
+              - /url: /docs/todos/#todos-limit_skip
+          - listitem [ref=e228]:
+            - link "Add a todo" [ref=e229] [cursor=pointer]:
+              - /url: /docs/todos/#todos-add
+          - listitem [ref=e230]:
+            - link "Update a todo" [ref=e231] [cursor=pointer]:
+              - /url: /docs/todos/#todos-update
+          - listitem [ref=e232]:
+            - link "Delete a todo" [ref=e233] [cursor=pointer]:
+              - /url: /docs/todos/#todos-delete
+      - listitem [ref=e234]:
+        - link "Quotes" [ref=e235] [cursor=pointer]:
+          - /url: /docs/quotes
+          - img [ref=e236]
+          - text: Quotes
+        - list:
+          - listitem [ref=e238]:
+            - link "Get all quotes" [ref=e239] [cursor=pointer]:
+              - /url: /docs/quotes/#quotes-all
+          - listitem [ref=e240]:
+            - link "Get a single quote" [ref=e241] [cursor=pointer]:
+              - /url: /docs/quotes/#quotes-single
+          - listitem [ref=e242]:
+            - link "Get a random quote" [ref=e243] [cursor=pointer]:
+              - /url: /docs/quotes/#quotes-random
+          - listitem [ref=e244]:
+            - link "Limit & Skip quotes" [ref=e245] [cursor=pointer]:
+              - /url: /docs/quotes/#quotes-limit_skip
+      - listitem [ref=e246]:
+        - link "Mock HTTP" [ref=e247] [cursor=pointer]:
+          - /url: /docs/http
+          - img [ref=e248]
+          - text: Mock HTTP
+        - list:
+          - listitem [ref=e250]:
+            - link "Mock HTTP Response" [ref=e251] [cursor=pointer]:
+              - /url: /docs/http/#http-mock
+          - listitem [ref=e252]:
+            - link "Custom HTTP Response" [ref=e253] [cursor=pointer]:
+              - /url: /docs/http/#http-custom
+  - generic [ref=e255]:
+    - heading "svg icon Carts - Docs" [level=1] [ref=e256]:
+      - img "svg icon" [ref=e257]
+      - text: Carts - Docs
+    - paragraph [ref=e258]:
+      - text: The
+      - strong [ref=e259]: carts
+      - text: endpoint offers a dataset of sample shopping cart data, including details like cart items, quantities, prices, and user IDs, useful for testing and prototyping e-commerce functionalities such as cart management and checkout processes.
+    - generic [ref=e260]:
+      - link "Get all carts" [ref=e261] [cursor=pointer]:
+        - /url: "#carts-all"
+      - code [ref=e263]: fetch('https://dummyjson.com/carts') .then(res => res.json()) .then(console.log);
+      - button "Show Output" [ref=e264] [cursor=pointer]
+      - code [ref=e265]: "{ \"carts\": [ { \"id\": 1, \"products\": [ { \"id\": 144, \"title\": \"Cricket Helmet\", \"price\": 44.99, \"quantity\": 4, \"total\": 179.96, \"discountPercentage\": 11.47, \"discountedTotal\": 159.32, \"thumbnail\": \"https://cdn.dummyjson.com/products/images/sports-accessories/Cricket%20Helmet/thumbnail.png\" }, {...} // more products ], \"total\": 4794.8, \"discountedTotal\": 4288.95, \"userId\": 142, \"totalProducts\": 5, \"totalQuantity\": 20 }, {...}, {...}, {...} // 30 items ], \"total\": 50, \"skip\": 0, \"limit\": 30 }"
+    - generic [ref=e266]:
+      - link "Get a single cart" [ref=e267] [cursor=pointer]:
+        - /url: "#carts-single"
+      - code [ref=e269]: fetch('https://dummyjson.com/carts/1') .then(res => res.json()) .then(console.log);
+      - button "Show Output" [ref=e270] [cursor=pointer]
+      - code [ref=e271]: "{ \"id\": 1, \"products\": [ { \"id\": 144, \"title\": \"Cricket Helmet\", \"price\": 44.99, \"quantity\": 4, \"total\": 179.96, \"discountPercentage\": 11.47, \"discountedTotal\": 159.32, \"thumbnail\": \"https://cdn.dummyjson.com/products/images/sports-accessories/Cricket%20Helmet/thumbnail.png\" }, {...} // more products ], \"total\": 4794.8, \"discountedTotal\": 4288.95, \"userId\": 142, \"totalProducts\": 5, \"totalQuantity\": 20 }"
+    - generic [ref=e272]:
+      - link "Get carts by a user" [ref=e273] [cursor=pointer]:
+        - /url: "#carts-user"
+      - code [ref=e275]: // getting carts by user with id 5 fetch('https://dummyjson.com/carts/user/5') .then(res => res.json()) .then(console.log);
+      - button "Show Output" [ref=e276] [cursor=pointer]
+      - code [ref=e277]: "{ \"carts\": [ { \"id\": 19, \"products\": [ { \"id\": 144, \"title\": \"Cricket Helmet\", \"price\": 44.99, \"quantity\": 4, \"total\": 179.96, \"discountPercentage\": 11.47, \"discountedTotal\": 159.32, \"thumbnail\": \"https://cdn.dummyjson.com/products/images/sports-accessories/Cricket%20Helmet/thumbnail.png\" }, {...} // more products ], \"total\": 2492, \"discountedTotal\": 2140, \"userId\": 5, // user id is 5 \"totalProducts\": 5, \"totalQuantity\": 14 } ], \"total\": 1, \"skip\": 0, \"limit\": 1 }"
+    - generic [ref=e278]:
+      - link "Add a new cart" [ref=e279] [cursor=pointer]:
+        - /url: "#carts-add"
+      - paragraph [ref=e280]:
+        - text: Adding a new cart will not add it into the server.
+        - text: It will simulate a POST request and will return the new created cart with a new id
+      - paragraph [ref=e281]:
+        - text: You can provide a
+        - generic [ref=e282]: userId
+        - text: and array of products as objects, containing
+        - generic [ref=e283]: productId
+        - text: "&"
+        - generic [ref=e284]: quantity
+      - code [ref=e286]: "fetch('https://dummyjson.com/carts/add', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ userId: 1, products: [ { id: 144, quantity: 4, }, { id: 98, quantity: 1, }, ] }) }) .then(res => res.json()) .then(console.log);"
+      - button "Show Output" [ref=e287] [cursor=pointer]
+      - code [ref=e288]: "{ \"id\": 51, \"products\": [ // products were added by id { \"id\": 98, \"title\": \"Rolex Submariner Watch\", \"price\": 13999.99, \"quantity\": 4, \"total\": 55999.96, \"discountPercentage\": 0.82, \"discountedPrice\": 55541, \"thumbnail\": \"https://cdn.dummyjson.com/products/images/mens-watches/Rolex%20Submariner%20Watch/thumbnail.png\" }, { \"id\": 144, \"title\": \"Cricket Helmet\", \"price\": 44.99, \"quantity\": 1, \"total\": 44.99, \"discountPercentage\": 10.75, \"discountedPrice\": 40, \"thumbnail\": \"https://cdn.dummyjson.com/products/images/sports-accessories/Cricket%20Helmet/thumbnail.png\" } ], \"total\": 56044.95, // total was calculated with quantity \"discountedTotal\": 55581, \"userId\": 1, // user id is 1 \"totalProducts\": 2, \"totalQuantity\": 5 // total quantity of items }"
+    - generic [ref=e289]:
+      - link "Update a cart" [ref=e290] [cursor=pointer]:
+        - /url: "#carts-update"
+      - paragraph [ref=e291]:
+        - text: Updating a cart will not update it into the server.
+        - text: It will simulate a PUT/PATCH request and will return updated cart with modified data
+      - paragraph [ref=e292]:
+        - text: Pass
+        - generic [ref=e293]: "\"merge: true\""
+        - text: to include old products when updating
+      - paragraph [ref=e294]:
+        - text: You can provide a
+        - generic [ref=e295]: userId
+        - text: and array of products as objects, containing
+        - generic [ref=e296]: productId
+        - text: "&"
+        - generic [ref=e297]: quantity
+      - code [ref=e299]: "/* adding products in cart with id 1 */ fetch('https://dummyjson.com/carts/1', { method: 'PUT', /* or PATCH */ headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ merge: true, // this will include existing products in the cart products: [ { id: 1, quantity: 1, }, ] }) }) .then(res => res.json()) .then(console.log);"
+      - button "Show Output" [ref=e300] [cursor=pointer]
+      - code [ref=e301]: "{ \"id\": 1, \"products\": [ { \"id\": 1, \"title\": \"Essence Mascara Lash Princess\", \"price\": 9.99, \"quantity\": 1, \"total\": 9.99, \"discountPercentage\": 7.17, \"discountedPrice\": 9, \"thumbnail\": \"https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/thumbnail.png\" } {...} // other old products ], \"total\": 103784.84, // total was updated \"discountedTotal\": 89695, // discounted total was updated \"userId\": 33, \"totalProducts\": 5, // total products were updated \"totalQuantity\": 16 // total quantity was updated }"
+    - generic [ref=e302]:
+      - link "Delete a cart" [ref=e303] [cursor=pointer]:
+        - /url: "#carts-delete"
+      - paragraph [ref=e304]:
+        - text: Deleting a cart will not delete it into the server.
+        - text: It will simulate a DELETE request and will return deleted cart with
+        - generic [ref=e305]: isDeleted
+        - text: "&"
+        - generic [ref=e306]: deletedOn
+        - text: keys
+      - code [ref=e308]: "fetch('https://dummyjson.com/carts/1', { method: 'DELETE', }) .then(res => res.json()) .then(console.log);"
+      - button "Show Output" [ref=e309] [cursor=pointer]
+      - code [ref=e310]: "{ \"id\": 1, \"products\": [ { \"id\": 168, \"title\": \"Charger SXT RWD\", \"price\": 32999.99, \"quantity\": 3, \"total\": 98999.97, \"discountPercentage\": 13.39, \"discountedTotal\": 85743.87, \"thumbnail\": \"https://cdn.dummyjson.com/products/images/vehicle/Charger%20SXT%20RWD/thumbnail.png\" }, {...}, // more products ], \"total\": 103774.85, \"discountedTotal\": 89686.65, \"userId\": 33, \"totalProducts\": 4, \"totalQuantity\": 15, \"isDeleted\": true, \"deletedOn\": /* ISOTime */ }"
+  - generic [ref=e311]:
+    - link "Buy me a coffee Coffee Icon" [ref=e313] [cursor=pointer]:
+      - /url: https://buymeacoffee.com/muhammadovi
+      - text: Buy me a coffee
+      - img "Coffee Icon" [ref=e314]
+    - generic [ref=e315]:
+      - link "Github" [ref=e316] [cursor=pointer]:
+        - /url: https://github.com/Ovi/DummyJSON
+        - img "Github" [ref=e317]
+      - link "Github" [ref=e318] [cursor=pointer]:
+        - /url: https://x.com/DummyJSON
+        - img "Github" [ref=e319]
+      - link "Github" [ref=e320] [cursor=pointer]:
+        - /url: https://linkedin.com/company/DummyJSON
+        - img "Github" [ref=e321]

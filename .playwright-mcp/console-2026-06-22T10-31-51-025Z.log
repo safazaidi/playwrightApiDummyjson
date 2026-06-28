@@ -1,0 +1,3 @@
+[     302ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://dummyjson.com/carts:0
+[   16826ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://dummyjson.com/carts:0
+[   22339ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://dummyjson.com/carts/999:0

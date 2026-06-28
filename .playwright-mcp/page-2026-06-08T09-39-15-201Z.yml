@@ -1,0 +1,218 @@
+- generic [active] [ref=e1]:
+  - banner:
+    - link "Get Free Temporary & Disposable Emails. dummyinbox.com" [ref=e5] [cursor=pointer]:
+      - /url: https://dummyinbox.com?utm_source=dummyjson
+    - navigation [ref=e6]:
+      - generic [ref=e7]:
+        - link "DummyJSON" [ref=e8] [cursor=pointer]:
+          - /url: /
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - link "Home" [ref=e11] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e12]:
+            - link "Docs" [ref=e13] [cursor=pointer]:
+              - /url: /docs
+          - listitem [ref=e14]:
+            - link "Icon GitHub" [ref=e15] [cursor=pointer]:
+              - /url: https://github.com/Ovi/DummyJSON
+              - img "Icon" [ref=e16]
+              - text: GitHub
+  - generic [ref=e17]:
+    - generic [ref=e18]:
+      - heading "Free Fake REST API for Placeholder JSON Data" [level=1] [ref=e19]: Free Fake REST API for Placeholder JSON Data
+      - heading "Develop, Build, Test." [level=3] [ref=e21]
+      - paragraph [ref=e22]: Get instant dummy JSON data for your frontend with DummyJSON Server — no backend setup needed!
+      - generic [ref=e23]:
+        - link "Icon View on GitHub" [ref=e24] [cursor=pointer]:
+          - /url: https://github.com/Ovi/DummyJSON
+          - img "Icon" [ref=e25]
+          - text: View on GitHub
+        - link "Read Docs" [ref=e26] [cursor=pointer]:
+          - /url: /docs
+      - generic [ref=e27]:
+        - text: Serving over
+        - strong [ref=e28]: 500 million
+        - text: requests monthly!
+    - img "Image" [ref=e30]
+    - img "arrow-down-icon" [ref=e31] [cursor=pointer]
+  - generic [ref=e32]:
+    - generic [ref=e33]:
+      - heading "Say Goodbye to Boring Placeholder Text!" [level=2] [ref=e34]: Say Goodbye to Boring Placeholder Text!
+      - paragraph [ref=e36]: Say goodbye to Lorem Ipsum! DummyJSON brings real JSON data to your frontend, letting you focus on development while we take care of data serving.
+      - link "Try it Now?" [ref=e38] [cursor=pointer]:
+        - /url: /docs
+    - img "Image" [ref=e40]
+    - img "arrow-down-icon" [ref=e41] [cursor=pointer]
+  - generic [ref=e42]:
+    - generic [ref=e43]:
+      - heading "Ready-to-Use Resources for Your Projects" [level=2] [ref=e44]: Ready-to-Use Resources for Your Projects
+      - paragraph [ref=e46]: Instantly access over 10 diverse datasets with our JSON Placeholder Data, speeding up frontend development and creating dynamic prototypes without backend hassles.
+      - link "View More" [ref=e48] [cursor=pointer]:
+        - /url: /docs
+    - img "Image" [ref=e50]
+    - img "arrow-down-icon" [ref=e51] [cursor=pointer]
+  - generic [ref=e52]:
+    - generic [ref=e53]:
+      - heading "Placeholder Images? No Problem!" [level=2] [ref=e54]: Placeholder Images? No Problem!
+      - paragraph [ref=e56]: Need images on the fly? DummyJSON Server creates dynamic placeholders instantly, no more image hunting or complex setups. Just add the URL and you're good to go!
+      - link "Generate Now" [ref=e58] [cursor=pointer]:
+        - /url: /docs/image
+    - img "Placeholder Image" [ref=e60]
+    - img "arrow-down-icon" [ref=e61] [cursor=pointer]
+  - generic [ref=e62]:
+    - generic [ref=e63]:
+      - heading "Top Resources:" [level=2] [ref=e64]
+      - paragraph [ref=e65]: Access real-life data, fully organized and ready to use, all in one place.
+      - list [ref=e66]:
+        - listitem [ref=e67]:
+          - link "Products https://dummyjson.com/products" [ref=e68] [cursor=pointer]:
+            - /url: https://dummyjson.com/products
+            - img [ref=e69]
+            - generic [ref=e71]:
+              - heading "Products" [level=3] [ref=e72]
+              - paragraph [ref=e73]: https://dummyjson.com/products
+            - img [ref=e74]
+        - listitem [ref=e77]:
+          - link "Carts https://dummyjson.com/carts" [ref=e78] [cursor=pointer]:
+            - /url: https://dummyjson.com/carts
+            - img [ref=e79]
+            - generic [ref=e81]:
+              - heading "Carts" [level=3] [ref=e82]
+              - paragraph [ref=e83]: https://dummyjson.com/carts
+            - img [ref=e84]
+        - listitem [ref=e87]:
+          - link "Users https://dummyjson.com/users" [ref=e88] [cursor=pointer]:
+            - /url: https://dummyjson.com/users
+            - img [ref=e89]
+            - generic [ref=e91]:
+              - heading "Users" [level=3] [ref=e92]
+              - paragraph [ref=e93]: https://dummyjson.com/users
+            - img [ref=e94]
+        - listitem [ref=e97]:
+          - link "Posts https://dummyjson.com/posts" [ref=e98] [cursor=pointer]:
+            - /url: https://dummyjson.com/posts
+            - img [ref=e99]
+            - generic [ref=e101]:
+              - heading "Posts" [level=3] [ref=e102]
+              - paragraph [ref=e103]: https://dummyjson.com/posts
+            - img [ref=e104]
+        - listitem [ref=e107]:
+          - link "Comments https://dummyjson.com/comments" [ref=e108] [cursor=pointer]:
+            - /url: https://dummyjson.com/comments
+            - img [ref=e109]
+            - generic [ref=e111]:
+              - heading "Comments" [level=3] [ref=e112]
+              - paragraph [ref=e113]: https://dummyjson.com/comments
+            - img [ref=e114]
+        - listitem [ref=e117]:
+          - link "Quotes https://dummyjson.com/quotes" [ref=e118] [cursor=pointer]:
+            - /url: https://dummyjson.com/quotes
+            - img [ref=e119]
+            - generic [ref=e121]:
+              - heading "Quotes" [level=3] [ref=e122]
+              - paragraph [ref=e123]: https://dummyjson.com/quotes
+            - img [ref=e124]
+        - listitem [ref=e127]:
+          - link "Todos https://dummyjson.com/todos" [ref=e128] [cursor=pointer]:
+            - /url: https://dummyjson.com/todos
+            - img [ref=e129]
+            - generic [ref=e131]:
+              - heading "Todos" [level=3] [ref=e132]
+              - paragraph [ref=e133]: https://dummyjson.com/todos
+            - img [ref=e134]
+        - listitem [ref=e137]:
+          - link "Recipes https://dummyjson.com/recipes" [ref=e138] [cursor=pointer]:
+            - /url: https://dummyjson.com/recipes
+            - img [ref=e139]
+            - generic [ref=e141]:
+              - heading "Recipes" [level=3] [ref=e142]
+              - paragraph [ref=e143]: https://dummyjson.com/recipes
+            - img [ref=e144]
+        - listitem [ref=e147]:
+          - link "Image https://dummyjson.com/image" [ref=e148] [cursor=pointer]:
+            - /url: https://dummyjson.com/image
+            - img [ref=e149]
+            - generic [ref=e151]:
+              - heading "Image" [level=3] [ref=e152]
+              - paragraph [ref=e153]: https://dummyjson.com/image
+            - img [ref=e154]
+        - listitem [ref=e157]:
+          - link "Auth https://dummyjson.com/docs/auth" [ref=e158] [cursor=pointer]:
+            - /url: https://dummyjson.com/docs/auth
+            - img [ref=e159]
+            - generic [ref=e161]:
+              - heading "Auth" [level=3] [ref=e162]
+              - paragraph [ref=e163]: https://dummyjson.com/docs/auth
+            - img [ref=e164]
+    - img "arrow-down-icon" [ref=e167] [cursor=pointer]
+  - generic [ref=e168]:
+    - generic [ref=e169]:
+      - heading "Try it yourself!" [level=2] [ref=e170]: Try it yourself!
+      - paragraph [ref=e172]: Use the dropdown to get results for different resources.
+      - generic [ref=e173]:
+        - generic [ref=e174]:
+          - text: "fetch(`https://dummyjson.com/"
+          - generic [ref=e176] [cursor=pointer]:
+            - radio "RESOURCE" [checked] [ref=e177]
+            - generic [ref=e178]: RESOURCE
+            - radio "products" [ref=e179]
+            - generic [ref=e180]: products
+            - radio "carts" [ref=e181]
+            - generic [ref=e182]: carts
+            - radio "users" [ref=e183]
+            - generic [ref=e184]: users
+            - radio "posts" [ref=e185]
+            - generic [ref=e186]: posts
+            - radio "comments" [ref=e187]
+            - generic [ref=e188]: comments
+            - radio "quotes" [ref=e189]
+            - generic [ref=e190]: quotes
+            - radio "recipes" [ref=e191]
+            - generic [ref=e192]: recipes
+            - radio "todos" [ref=e193]
+            - generic [ref=e194]: todos
+          - text: "`)"
+        - code [ref=e197]: "{ \"💬\": \"🤔\" }"
+      - link "View Docs" [ref=e199] [cursor=pointer]:
+        - /url: /docs
+    - img "arrow-down-icon" [ref=e200] [cursor=pointer]
+  - generic [ref=e201]:
+    - generic [ref=e202]:
+      - heading "Custom Response" [level=2] [ref=e203]: Custom Response
+      - paragraph [ref=e205]:
+        - text: Need a REST API for custom JSON data?
+        - text: Enter a response body below and click "Generate Now" to get your custom API URL.
+      - generic [ref=e206]:
+        - generic [ref=e207]:
+          - generic [ref=e208]: // "response" body, what you expect from your custom API
+          - button "Prettify" [ref=e209] [cursor=pointer]
+        - code [ref=e212]: "{ \"foo\": \"bar\" }"
+      - textbox "https://dummyjson.com/c/abcd-1234" [ref=e214]
+      - generic [ref=e215]:
+        - button "Icon Generate Now" [ref=e216] [cursor=pointer]:
+          - img "Icon" [ref=e217]
+          - text: Generate Now
+        - link "More Info" [ref=e218] [cursor=pointer]:
+          - /url: /custom-response
+    - img "arrow-down-icon" [ref=e219] [cursor=pointer]
+  - generic [ref=e221]:
+    - heading "Thank you!" [level=2] [ref=e222]: Thank you!
+    - paragraph [ref=e224]:
+      - text: Thank you for being a part of the DummyJSON community. If you have not already,
+      - link "Buy me a coffee Coffee Icon" [ref=e225] [cursor=pointer]:
+        - /url: https://buymeacoffee.com/muhammadovi
+        - text: Buy me a coffee
+        - img "Coffee Icon" [ref=e226]
+      - link "And give DummyJSON star on GitHub!" [ref=e227] [cursor=pointer]:
+        - /url: https://github.com/Ovi/DummyJSON
+      - generic [ref=e228]:
+        - link "Github" [ref=e229] [cursor=pointer]:
+          - /url: https://github.com/Ovi/DummyJSON
+          - img "Github" [ref=e230]
+        - link "Github" [ref=e231] [cursor=pointer]:
+          - /url: https://x.com/DummyJSON
+          - img "Github" [ref=e232]
+        - link "Github" [ref=e233] [cursor=pointer]:
+          - /url: https://linkedin.com/company/DummyJSON
+          - img "Github" [ref=e234]

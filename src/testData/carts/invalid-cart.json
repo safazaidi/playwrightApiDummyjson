@@ -1,0 +1,55 @@
+{
+  "missingUserId": {
+    "products": [
+      {
+        "id": 144,
+        "quantity": 2
+      }
+    ]
+  },
+
+  "invalidProductId": {
+    "userId": 1,
+    "products": [
+      {
+        "id": 99999,
+        "quantity": 1
+      }
+    ]
+  },
+
+  "negativeQuantity": {
+    "userId": 1,
+    "products": [
+      {
+        "id": 144,
+        "quantity": -1
+      }
+    ]
+  },
+
+  "zeroQuantity": {
+    "userId": 1,
+    "products": [
+      {
+        "id": 144,
+        "quantity": 0
+      }
+    ]
+  },
+
+  "emptyProducts": {
+    "userId": 1,
+    "products": []
+  },
+
+  "invalidUserIdType": {
+    "userId": "abc",
+    "products": [
+      {
+        "id": 144,
+        "quantity": 1
+      }
+    ]
+  }
+}
