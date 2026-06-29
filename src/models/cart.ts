@@ -1,5 +1,5 @@
 // src/models/cart.ts
-export interface Cart {
+export interface  Cart{
   id: number;
   userId: number;
   products: CartProduct[];
