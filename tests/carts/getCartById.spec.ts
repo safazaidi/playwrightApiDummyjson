@@ -31,7 +31,7 @@ test.describe('GET/Cart By Id' ,() =>{
     })
     test('TC-104 | ID=1 — userId est un entier positif', async()=>{
         expect(body.userId).toBeGreaterThan(0);
-        expect(body.userId).toBe(2);
+        expect(body.userId).toBe(1);
         expect(Number.isInteger(body.userId)).toBeTruthy();
         
 
